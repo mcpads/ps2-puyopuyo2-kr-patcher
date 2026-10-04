@@ -38,7 +38,7 @@ Rust 1.96.0(`rust-toolchain.toml`)을 사용합니다. 기본 테스트는 합�
 | 스토리 대사 폰트 | `--story-font` | 메이플스토리 서체 `Maplestory Light.ttf` ([메이플스토리 서체](https://maplestory.nexon.com/Media/Font)) |
 | xdelta3 | `PATH` 또는 `--xdelta` | 패키지 생성·적용에만 필요 |
 
-폰트는 재배포 조건을 이 저장소에서 보장할 수 없어 포함하지 않습니다. 각 폰트의 라이선스는 배포처에서 확인하세요. 빌드는 `config/poc-font.json`과 `config/story-dialogue-font.json`에 고정한 SHA-256과 다른 폰트를 거부합니다. 배포 패치 v0.1.0은 다음 폰트 파일로 만들었습니다.
+빌드는 `config/poc-font.json`과 `config/story-dialogue-font.json`에 고정한 SHA-256과 다른 폰트를 거부합니다. 배포 패치 v0.1.0은 다음 폰트 파일로 만들었습니다.
 
 ```text
 e8e6aa8b1b662c7bf0d7f136f29e822e0985176458a6e5d0ba08afc4a5c901a9  BMJUA.ttf
