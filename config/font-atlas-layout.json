@@ -1,0 +1,205 @@
+{
+  "schema": 1,
+  "source_bin_sha256": "93c8005f0a2ed83659307234b3298b3e8b3c0a78af3cd27a784fd26fc9d95ed4",
+  "executable_sha256": "108b3a24e32edde257cd80f656d863e776e258718cb34a11b17b77eb1a38087b",
+  "registration_bindings": [
+    { "symbol": "Nazo_TexReg_Menu", "slot": 2, "image_load_index": 7, "palette_slot": 7 },
+    { "symbol": "Nazo_TexReg_Menu", "slot": 7, "image_load_index": 7, "palette_slot": 7 },
+    { "symbol": "Nazo_TexReg_Nazo", "slot": 7, "image_load_index": 7, "palette_slot": 7 },
+    { "symbol": "Nazo_TexReg_Game", "slot": 7, "image_load_index": 27, "palette_slot": 7 },
+    { "symbol": "Nazo_TexReg_Edit_0", "slot": 7, "image_load_index": 7, "palette_slot": 7 },
+    { "symbol": "Nazo_TexReg_Edit_0", "slot": 10, "image_load_index": 24, "palette_slot": 7 },
+    { "symbol": "Nazo_TexReg_Edit_1", "slot": 7, "image_load_index": 7, "palette_slot": 7 },
+    { "symbol": "Nazo_TexReg_Edit_1", "slot": 10, "image_load_index": 24, "palette_slot": 7 },
+    { "symbol": "Nazo_TexReg_Edit_2", "slot": 7, "image_load_index": 7, "palette_slot": 7 },
+    { "symbol": "Nazo_TexReg_Edit_2", "slot": 10, "image_load_index": 24, "palette_slot": 7 },
+    { "symbol": "Nazo_TexReg_Edit_4", "slot": 7, "image_load_index": 7, "palette_slot": 7 },
+    { "symbol": "Nazo_TexReg_Edit_4", "slot": 10, "image_load_index": 24, "palette_slot": 7 },
+    { "symbol": "Nazo_TexReg_Present", "slot": 7, "image_load_index": 7, "palette_slot": 7 },
+    { "symbol": "Nazo_TexReg_Present", "slot": 10, "image_load_index": 24, "palette_slot": 7 },
+    { "symbol": "Nazo_TexReg_Present", "slot": 11, "image_load_index": 27, "palette_slot": 7 }
+  ],
+  "pattern_witnesses": [
+    {
+      "symbol": "NazoStr_Ptn",
+      "record_count": 58,
+      "records": [
+        { "record_index": 10, "image_load_index": 7, "bounds": { "x": 352, "y": 0, "width": 64, "height": 32 } },
+        { "record_index": 11, "image_load_index": 7, "bounds": { "x": 416, "y": 0, "width": 88, "height": 32 } },
+        { "record_index": 23, "image_load_index": 7, "bounds": { "x": 400, "y": 32, "width": 72, "height": 32 } },
+        { "record_index": 36, "image_load_index": 7, "bounds": { "x": 240, "y": 64, "width": 112, "height": 32 } },
+        { "record_index": 37, "image_load_index": 7, "bounds": { "x": 352, "y": 64, "width": 112, "height": 32 } },
+        { "record_index": 38, "image_load_index": 7, "bounds": { "x": 0, "y": 96, "width": 64, "height": 32 } },
+        { "record_index": 39, "image_load_index": 7, "bounds": { "x": 64, "y": 96, "width": 32, "height": 32 } },
+        { "record_index": 40, "image_load_index": 7, "bounds": { "x": 96, "y": 96, "width": 40, "height": 32 } },
+        { "record_index": 41, "image_load_index": 7, "bounds": { "x": 136, "y": 96, "width": 64, "height": 32 } },
+        { "record_index": 42, "image_load_index": 7, "bounds": { "x": 200, "y": 96, "width": 64, "height": 32 } },
+        { "record_index": 43, "image_load_index": 7, "bounds": { "x": 264, "y": 96, "width": 80, "height": 32 } },
+        { "record_index": 45, "image_load_index": 7, "bounds": { "x": 0, "y": 128, "width": 240, "height": 40 } },
+        { "record_index": 46, "image_load_index": 7, "bounds": { "x": 0, "y": 168, "width": 240, "height": 40 } },
+        { "record_index": 47, "image_load_index": 7, "bounds": { "x": 0, "y": 208, "width": 240, "height": 40 } },
+        { "record_index": 48, "image_load_index": 7, "bounds": { "x": 0, "y": 248, "width": 240, "height": 40 } },
+        { "record_index": 49, "image_load_index": 7, "bounds": { "x": 240, "y": 128, "width": 240, "height": 40 } },
+        { "record_index": 50, "image_load_index": 7, "bounds": { "x": 240, "y": 168, "width": 240, "height": 40 } },
+        { "record_index": 51, "image_load_index": 7, "bounds": { "x": 240, "y": 208, "width": 240, "height": 40 } },
+        { "record_index": 52, "image_load_index": 7, "bounds": { "x": 240, "y": 248, "width": 88, "height": 32 } },
+        { "record_index": 53, "image_load_index": 7, "bounds": { "x": 328, "y": 248, "width": 88, "height": 32 } },
+        { "record_index": 57, "image_load_index": 7, "bounds": { "x": 432, "y": 96, "width": 80, "height": 32 } }
+      ]
+    },
+    {
+      "symbol": "NazoMenu_Ptn",
+      "record_count": 17,
+      "records": [
+        { "record_index": 15, "image_load_index": 4, "bounds": { "x": 304, "y": 280, "width": 208, "height": 40 } }
+      ]
+    },
+    {
+      "symbol": "NazoEdit_Ptn",
+      "record_count": 36,
+      "records": [
+        { "record_index": 2, "image_load_index": 10, "bounds": { "x": 296, "y": 0, "width": 160, "height": 32 } },
+        { "record_index": 3, "image_load_index": 10, "bounds": { "x": 296, "y": 32, "width": 160, "height": 32 } },
+        { "record_index": 4, "image_load_index": 10, "bounds": { "x": 296, "y": 64, "width": 160, "height": 32 } },
+        { "record_index": 5, "image_load_index": 10, "bounds": { "x": 296, "y": 96, "width": 160, "height": 32 } },
+        { "record_index": 6, "image_load_index": 10, "bounds": { "x": 296, "y": 128, "width": 160, "height": 32 } },
+        { "record_index": 7, "image_load_index": 10, "bounds": { "x": 296, "y": 160, "width": 160, "height": 32 } },
+        { "record_index": 8, "image_load_index": 10, "bounds": { "x": 296, "y": 192, "width": 160, "height": 32 } },
+        { "record_index": 9, "image_load_index": 10, "bounds": { "x": 208, "y": 320, "width": 272, "height": 32 } },
+        { "record_index": 15, "image_load_index": 10, "bounds": { "x": 0, "y": 0, "width": 240, "height": 32 } },
+        { "record_index": 16, "image_load_index": 10, "bounds": { "x": 0, "y": 32, "width": 296, "height": 32 } },
+        { "record_index": 17, "image_load_index": 10, "bounds": { "x": 0, "y": 64, "width": 296, "height": 32 } },
+        { "record_index": 18, "image_load_index": 10, "bounds": { "x": 0, "y": 96, "width": 256, "height": 32 } },
+        { "record_index": 19, "image_load_index": 10, "bounds": { "x": 0, "y": 128, "width": 272, "height": 32 } },
+        { "record_index": 20, "image_load_index": 10, "bounds": { "x": 0, "y": 160, "width": 288, "height": 64 } },
+        { "record_index": 21, "image_load_index": 10, "bounds": { "x": 0, "y": 224, "width": 296, "height": 32 } },
+        { "record_index": 22, "image_load_index": 10, "bounds": { "x": 0, "y": 256, "width": 256, "height": 32 } },
+        { "record_index": 31, "image_load_index": 10, "bounds": { "x": 0, "y": 288, "width": 208, "height": 32 } },
+        { "record_index": 32, "image_load_index": 10, "bounds": { "x": 0, "y": 320, "width": 208, "height": 32 } },
+        { "record_index": 33, "image_load_index": 10, "bounds": { "x": 0, "y": 352, "width": 208, "height": 32 } },
+        { "record_index": 34, "image_load_index": 10, "bounds": { "x": 208, "y": 352, "width": 208, "height": 32 } },
+        { "record_index": 35, "image_load_index": 10, "bounds": { "x": 296, "y": 224, "width": 160, "height": 32 } }
+      ]
+    }
+  ],
+  "surfaces": [
+    {
+      "source_surface_id": "linked-texture/image-d/000054",
+      "regions": [
+        { "region_id": "chain-label-blue", "placements": [{ "placement_id": "blue-chain", "text_line_index": 0, "text_slice": { "kind": "whole" }, "bounds": { "x": 416, "y": 48, "width": 46, "height": 15 } }] },
+        { "region_id": "chain-label-pink", "placements": [{ "placement_id": "pink-chain", "text_line_index": 0, "text_slice": { "kind": "whole" }, "bounds": { "x": 416, "y": 112, "width": 46, "height": 15 } }] }
+      ]
+    },
+    {
+      "source_surface_id": "linked-texture/image-g/000012",
+      "regions": [
+        { "region_id": "chain-label-pink", "placements": [{ "placement_id": "pink-chain", "text_line_index": 0, "text_slice": { "kind": "whole" }, "bounds": { "x": 416, "y": 48, "width": 46, "height": 15 } }] },
+        { "region_id": "chain-label-blue", "placements": [{ "placement_id": "blue-chain", "text_line_index": 0, "text_slice": { "kind": "whole" }, "bounds": { "x": 416, "y": 336, "width": 46, "height": 15 } }] },
+        { "region_id": "chain-label-green", "placements": [{ "placement_id": "green-chain", "text_line_index": 0, "text_slice": { "kind": "whole" }, "bounds": { "x": 416, "y": 400, "width": 46, "height": 15 } }] }
+      ]
+    },
+    {
+      "source_surface_id": "linked-texture/image-g/000093",
+      "regions": [
+        {
+          "region_id": "puzzle-menu-japanese-phrase-supply",
+          "placements": [
+            { "placement_id": "yes", "text_line_index": 0, "text_slice": { "kind": "whole" }, "bounds": { "x": 352, "y": 3, "width": 64, "height": 29 } },
+            { "placement_id": "no", "text_line_index": 1, "text_slice": { "kind": "whole" }, "bounds": { "x": 416, "y": 3, "width": 88, "height": 29 } },
+            { "placement_id": "ordinal-long", "text_line_index": 2, "text_slice": { "kind": "whole" }, "bounds": { "x": 400, "y": 32, "width": 72, "height": 32 } },
+            { "placement_id": "which", "text_line_index": 3, "text_slice": { "kind": "whole" }, "bounds": { "x": 240, "y": 64, "width": 112, "height": 32 } },
+            { "placement_id": "where", "text_line_index": 4, "text_slice": { "kind": "whole" }, "bounds": { "x": 352, "y": 64, "width": 112, "height": 32 } },
+            { "placement_id": "back-short", "text_line_index": 5, "text_slice": { "kind": "whole" }, "bounds": { "x": 0, "y": 96, "width": 64, "height": 32 } },
+            { "placement_id": "item-counter", "text_line_index": 6, "text_slice": { "kind": "whole" }, "bounds": { "x": 64, "y": 96, "width": 32, "height": 32 } },
+            { "placement_id": "question-counter", "text_line_index": 7, "text_slice": { "kind": "whole" }, "bounds": { "x": 96, "y": 96, "width": 40, "height": 32 } },
+            { "placement_id": "ordinal-short", "text_line_index": 8, "text_slice": { "kind": "whole" }, "bounds": { "x": 136, "y": 96, "width": 64, "height": 32 } },
+            { "placement_id": "current", "text_line_index": 9, "text_slice": { "kind": "whole" }, "bounds": { "x": 200, "y": 96, "width": 64, "height": 32 } },
+            { "placement_id": "remaining", "text_line_index": 10, "text_slice": { "kind": "whole" }, "bounds": { "x": 264, "y": 96, "width": 80, "height": 32 } },
+            { "placement_id": "puzzle-one", "text_alignment": "center", "text_line_index": 11, "text_slice": { "kind": "whole" }, "bounds": { "x": 0, "y": 128, "width": 240, "height": 40 } },
+            { "placement_id": "play-game", "text_alignment": "left", "text_line_index": 12, "text_slice": { "kind": "whole" }, "bounds": { "x": 240, "y": 128, "width": 240, "height": 40 } },
+            { "placement_id": "puzzle-two", "text_alignment": "center", "text_line_index": 13, "text_slice": { "kind": "whole" }, "bounds": { "x": 0, "y": 168, "width": 240, "height": 40 } },
+            { "placement_id": "delete-game", "text_alignment": "left", "text_line_index": 14, "text_slice": { "kind": "whole" }, "bounds": { "x": 240, "y": 168, "width": 240, "height": 40 } },
+            { "placement_id": "editor", "text_alignment": "center", "text_line_index": 15, "text_slice": { "kind": "whole" }, "bounds": { "x": 0, "y": 208, "width": 240, "height": 40 } },
+            { "placement_id": "move-data", "text_alignment": "left", "text_line_index": 16, "text_slice": { "kind": "whole" }, "bounds": { "x": 240, "y": 208, "width": 240, "height": 40 } },
+            { "placement_id": "my-puzzle", "text_alignment": "center", "text_line_index": 17, "text_slice": { "kind": "whole" }, "bounds": { "x": 0, "y": 254, "width": 240, "height": 34 } },
+            { "placement_id": "back-menu", "text_alignment": "left", "text_line_index": 18, "text_slice": { "kind": "whole" }, "bounds": { "x": 240, "y": 248, "width": 88, "height": 32 } },
+            { "placement_id": "move", "text_alignment": "left", "text_line_index": 19, "text_slice": { "kind": "whole" }, "bounds": { "x": 328, "y": 248, "width": 88, "height": 32 } },
+            { "placement_id": "creating", "text_line_index": 20, "text_slice": { "kind": "whole" }, "bounds": { "x": 432, "y": 96, "width": 73, "height": 32 } },
+            { "placement_id": "continue", "text_alignment": "left", "text_line_index": 21, "text_slice": { "kind": "whole" }, "bounds": { "x": 0, "y": 288, "width": 160, "height": 30 } },
+            { "placement_id": "retry", "text_alignment": "left", "text_line_index": 22, "text_slice": { "kind": "whole" }, "bounds": { "x": 160, "y": 288, "width": 192, "height": 30 } },
+            { "placement_id": "quit", "text_alignment": "left", "text_line_index": 23, "text_slice": { "kind": "whole" }, "bounds": { "x": 352, "y": 288, "width": 112, "height": 30 } }
+          ]
+        }
+      ]
+    },
+    {
+      "source_surface_id": "linked-texture/image-g/000094",
+      "regions": [
+        {
+          "region_id": "puzzle-memory-card-japanese-phrase-supply",
+          "placements": [
+            { "placement_id": "yes", "text_line_index": 0, "text_slice": { "kind": "whole" }, "bounds": { "x": 352, "y": 3, "width": 64, "height": 29 } },
+            { "placement_id": "no", "text_line_index": 1, "text_slice": { "kind": "whole" }, "bounds": { "x": 416, "y": 3, "width": 88, "height": 29 } },
+            { "placement_id": "ordinal-long", "text_line_index": 2, "text_slice": { "kind": "whole" }, "bounds": { "x": 400, "y": 32, "width": 72, "height": 32 } },
+            { "placement_id": "which", "text_line_index": 3, "text_slice": { "kind": "whole" }, "bounds": { "x": 240, "y": 64, "width": 112, "height": 32 } },
+            { "placement_id": "where", "text_line_index": 4, "text_slice": { "kind": "whole" }, "bounds": { "x": 352, "y": 64, "width": 112, "height": 32 } },
+            { "placement_id": "back", "text_line_index": 5, "text_slice": { "kind": "whole" }, "bounds": { "x": 0, "y": 96, "width": 64, "height": 32 } },
+            { "placement_id": "item-counter", "text_line_index": 6, "text_slice": { "kind": "whole" }, "bounds": { "x": 64, "y": 96, "width": 32, "height": 32 } },
+            { "placement_id": "question-counter", "text_line_index": 7, "text_slice": { "kind": "whole" }, "bounds": { "x": 96, "y": 96, "width": 40, "height": 32 } },
+            { "placement_id": "ordinal-short", "text_line_index": 8, "text_slice": { "kind": "whole" }, "bounds": { "x": 136, "y": 96, "width": 64, "height": 32 } },
+            { "placement_id": "current", "text_line_index": 9, "text_slice": { "kind": "whole" }, "bounds": { "x": 200, "y": 96, "width": 64, "height": 32 } },
+            { "placement_id": "remaining", "text_line_index": 10, "text_slice": { "kind": "whole" }, "bounds": { "x": 264, "y": 96, "width": 80, "height": 32 } },
+            { "placement_id": "creating", "text_line_index": 11, "text_slice": { "kind": "whole" }, "bounds": { "x": 440, "y": 96, "width": 72, "height": 32 } },
+            { "placement_id": "continue", "text_alignment": "left", "text_line_index": 12, "text_slice": { "kind": "whole" }, "bounds": { "x": 0, "y": 128, "width": 160, "height": 32 } },
+            { "placement_id": "retry", "text_alignment": "left", "text_line_index": 13, "text_slice": { "kind": "whole" }, "bounds": { "x": 160, "y": 128, "width": 192, "height": 32 } },
+            { "placement_id": "quit", "text_alignment": "left", "text_line_index": 14, "text_slice": { "kind": "whole" }, "bounds": { "x": 352, "y": 128, "width": 112, "height": 32 } },
+            { "placement_id": "playstation-data-suffix", "text_line_index": 15, "text_slice": { "kind": "whole" }, "bounds": { "x": 168, "y": 160, "width": 120, "height": 28 } },
+            { "placement_id": "memory-card-slot", "text_line_index": 16, "text_slice": { "kind": "whole" }, "bounds": { "x": 428, "y": 160, "width": 70, "height": 28 } }
+          ]
+        }
+      ]
+    },
+    {
+      "source_surface_id": "linked-texture/image-g/000112",
+      "regions": [
+        {
+          "region_id": "puzzle-editor-command-and-condition-supply",
+          "placements": [
+            { "placement_id": "condition-chain", "text_line_index": 0, "text_slice": { "kind": "after_token", "token": "{count}" }, "bounds": { "x": 80, "y": 1, "width": 160, "height": 31 } },
+            { "placement_id": "condition-simultaneous", "text_line_index": 1, "text_slice": { "kind": "after_token", "token": "{count}" }, "bounds": { "x": 80, "y": 32, "width": 216, "height": 32 } },
+            { "placement_id": "condition-clear-puyos", "text_line_index": 2, "text_slice": { "kind": "whole" }, "bounds": { "x": 80, "y": 64, "width": 216, "height": 32 } },
+            { "placement_id": "condition-clear-all", "text_line_index": 3, "text_slice": { "kind": "whole" }, "bounds": { "x": 48, "y": 96, "width": 208, "height": 32 } },
+            { "placement_id": "condition-drop", "text_line_index": 4, "text_slice": { "kind": "after_token", "token": "{count}" }, "bounds": { "x": 80, "y": 128, "width": 192, "height": 32 } },
+            { "placement_id": "condition-puyo-prefix", "text_line_index": 5, "text_slice": { "kind": "before_token", "token": "{count}" }, "bounds": { "x": 80, "y": 160, "width": 208, "height": 32 } },
+            { "placement_id": "condition-puyo-suffix", "text_line_index": 5, "text_slice": { "kind": "after_token", "token": "{count}" }, "bounds": { "x": 112, "y": 192, "width": 176, "height": 32 } },
+            { "placement_id": "condition-colors", "text_line_index": 6, "text_slice": { "kind": "after_token", "token": "{count}" }, "bounds": { "x": 80, "y": 224, "width": 216, "height": 32 } },
+            { "placement_id": "condition-count", "text_line_index": 7, "text_slice": { "kind": "after_token", "token": "{count}" }, "bounds": { "x": 80, "y": 256, "width": 176, "height": 32 } },
+            { "placement_id": "create-screen", "text_line_index": 8, "text_slice": { "kind": "whole" }, "bounds": { "x": 296, "y": 1, "width": 160, "height": 31 } },
+            { "placement_id": "create-condition", "text_line_index": 9, "text_slice": { "kind": "whole" }, "bounds": { "x": 296, "y": 32, "width": 160, "height": 32 } },
+            { "placement_id": "run-game", "text_line_index": 10, "text_slice": { "kind": "whole" }, "bounds": { "x": 296, "y": 64, "width": 160, "height": 32 } },
+            { "placement_id": "register-problem", "text_line_index": 11, "text_slice": { "kind": "whole" }, "bounds": { "x": 296, "y": 96, "width": 160, "height": 32 } },
+            { "placement_id": "select-problem", "text_line_index": 12, "text_slice": { "kind": "whole" }, "bounds": { "x": 296, "y": 128, "width": 160, "height": 32 } },
+            { "placement_id": "clear-edit", "text_line_index": 13, "text_slice": { "kind": "whole" }, "bounds": { "x": 296, "y": 160, "width": 160, "height": 32 } },
+            { "placement_id": "delete-problem", "text_line_index": 14, "text_slice": { "kind": "whole" }, "bounds": { "x": 296, "y": 192, "width": 160, "height": 32 } },
+            { "placement_id": "finish", "text_line_index": 15, "text_slice": { "kind": "whole" }, "bounds": { "x": 296, "y": 224, "width": 160, "height": 32 } },
+            { "placement_id": "next-count", "text_line_index": 16, "text_slice": { "kind": "whole" }, "bounds": { "x": 80, "y": 288, "width": 128, "height": 32 } },
+            { "placement_id": "upload-problem", "text_line_index": 17, "text_slice": { "kind": "whole" }, "bounds": { "x": 304, "y": 280, "width": 204, "height": 40 } },
+            { "placement_id": "next-puyo", "text_line_index": 18, "text_slice": { "kind": "whole" }, "bounds": { "x": 80, "y": 320, "width": 128, "height": 32 } },
+            { "placement_id": "save-prefix", "text_line_index": 19, "text_slice": { "kind": "before_token", "token": "(PS2)" }, "bounds": { "x": 208, "y": 320, "width": 119, "height": 32 } },
+            { "placement_id": "save-suffix", "text_line_index": 19, "text_slice": { "kind": "after_token", "token": "(PS2)" }, "bounds": { "x": 400, "y": 320, "width": 80, "height": 32 } },
+            { "placement_id": "choose-outgoing-puyos", "text_line_index": 20, "text_slice": { "kind": "whole" }, "bounds": { "x": 18, "y": 352, "width": 190, "height": 28 } },
+            { "placement_id": "place-puyos", "text_line_index": 21, "text_slice": { "kind": "whole" }, "bounds": { "x": 208, "y": 352, "width": 208, "height": 28 } }
+          ]
+        }
+      ]
+    },
+    {
+      "source_surface_id": "linked-texture/image-md/000250",
+      "regions": [
+        { "region_id": "chain-label-pink", "placements": [{ "placement_id": "pink-chain", "text_line_index": 0, "text_slice": { "kind": "whole" }, "bounds": { "x": 416, "y": 48, "width": 46, "height": 15 } }] },
+        { "region_id": "chain-label-blue", "placements": [{ "placement_id": "blue-chain", "text_line_index": 0, "text_slice": { "kind": "whole" }, "bounds": { "x": 416, "y": 336, "width": 46, "height": 15 } }] },
+        { "region_id": "chain-label-green", "placements": [{ "placement_id": "green-chain", "text_line_index": 0, "text_slice": { "kind": "whole" }, "bounds": { "x": 416, "y": 400, "width": 46, "height": 15 } }] }
+      ]
+    }
+  ]
+}

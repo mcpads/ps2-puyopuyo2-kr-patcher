@@ -1,0 +1,97 @@
+{
+  "schema": 1,
+  "source_bin_sha256": "93c8005f0a2ed83659307234b3298b3e8b3c0a78af3cd27a784fd26fc9d95ed4",
+  "executable_iso_path": "/SLPM_624.00;1",
+  "executable_sha256": "108b3a24e32edde257cd80f656d863e776e258718cb34a11b17b77eb1a38087b",
+  "review_basis": "Visual review of 360x240 one-second samples across the full duration of every exact-source PSS movie in labeled 5x5 contact sheets viewed at full PNG resolution. Each file was classified as one asset; frame evidence identifies representative Japanese and English pixels but does not claim that every frame contains wording.",
+  "movies": [
+    {
+      "iso_path": "/MOVIE/MOV_01.PSS;1",
+      "product_scope": "excluded_other_title_promotion",
+      "classification": "japanese_english_mixed",
+      "japanese_evidence_frame": 150,
+      "english_evidence_frame": 0,
+      "note": "Phantasy Star trailer with Japanese dialogue and promotional captions; English title, menu, and battle UI must remain unchanged."
+    },
+    {
+      "iso_path": "/MOVIE/MOV_02.PSS;1",
+      "product_scope": "excluded_other_title_promotion",
+      "classification": "japanese_english_mixed",
+      "japanese_evidence_frame": 270,
+      "english_evidence_frame": 0,
+      "note": "Monaco GP trailer with Japanese promotional captions; English title, menus, and race UI must remain unchanged."
+    },
+    {
+      "iso_path": "/MOVIE/MOV_03.PSS;1",
+      "product_scope": "excluded_other_title_promotion",
+      "classification": "japanese_english_mixed",
+      "japanese_evidence_frame": 240,
+      "english_evidence_frame": 0,
+      "note": "Fantasy Zone trailer with Japanese promotional captions; English title and arcade HUD must remain unchanged."
+    },
+    {
+      "iso_path": "/MOVIE/MOV_04.PSS;1",
+      "product_scope": "excluded_other_title_promotion",
+      "classification": "japanese_english_mixed",
+      "japanese_evidence_frame": 180,
+      "english_evidence_frame": 0,
+      "note": "Space Harrier trailer with Japanese promotional captions; English title and arcade HUD must remain unchanged."
+    },
+    {
+      "iso_path": "/MOVIE/MOV_05.PSS;1",
+      "product_scope": "excluded_other_title_promotion",
+      "classification": "japanese_english_mixed",
+      "japanese_evidence_frame": 360,
+      "english_evidence_frame": 90,
+      "note": "Golden Axe trailer with Japanese title and promotional captions; English logo, menus, and battle UI must remain unchanged."
+    },
+    {
+      "iso_path": "/MOVIE/MOV_06.PSS;1",
+      "product_scope": "excluded_other_title_promotion",
+      "classification": "japanese_english_mixed",
+      "japanese_evidence_frame": 120,
+      "english_evidence_frame": 0,
+      "note": "Tant-R and Ichidant-R trailer with Japanese logo and promotional captions; English UI labels must remain unchanged."
+    },
+    {
+      "iso_path": "/MOVIE/MOV_07.PSS;1",
+      "product_scope": "excluded_other_title_promotion",
+      "classification": "japanese_english_mixed",
+      "japanese_evidence_frame": 270,
+      "english_evidence_frame": 0,
+      "note": "Columns trailer with Japanese promotional captions and dialogue; English title and game UI must remain unchanged."
+    },
+    {
+      "iso_path": "/MOVIE/MOV_08.PSS;1",
+      "product_scope": "excluded_other_title_promotion",
+      "classification": "japanese_english_mixed",
+      "japanese_evidence_frame": 570,
+      "english_evidence_frame": 0,
+      "note": "V.R. Virtua Racing FlatOut trailer with Japanese promotional captions; English title and race UI must remain unchanged."
+    },
+    {
+      "iso_path": "/MOVIE/MOV_09.PSS;1",
+      "product_scope": "excluded_other_title_promotion",
+      "classification": "japanese_english_mixed",
+      "japanese_evidence_frame": 300,
+      "english_evidence_frame": 0,
+      "note": "Gain Ground trailer with Japanese promotional captions; English title and game UI must remain unchanged."
+    },
+    {
+      "iso_path": "/MOVIE/MOV_10.PSS;1",
+      "product_scope": "excluded_other_title_promotion",
+      "classification": "japanese_english_mixed",
+      "japanese_evidence_frame": 360,
+      "english_evidence_frame": 0,
+      "note": "After Burner II trailer with Japanese promotional captions; English title and flight HUD must remain unchanged."
+    },
+    {
+      "iso_path": "/MOVIE/MOV_11.PSS;1",
+      "product_scope": "excluded_other_title_promotion",
+      "classification": "japanese_english_mixed",
+      "japanese_evidence_frame": 90,
+      "english_evidence_frame": 30,
+      "note": "Hokuto no Ken trailer with Japanese title, dialogue, and promotional captions; English menu labels and combat UI must remain unchanged."
+    }
+  ]
+}

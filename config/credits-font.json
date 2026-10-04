@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "id": "galmuri11-bold-credits",
+  "expected_filename": "Galmuri11-Bold.ttf",
+  "sha256": "5265b2f437fe81f0c8095b44c0173dd9a276b58a42552bf983f21c0e69e6e8af",
+  "license": "SIL Open Font License 1.1",
+  "upstream_repository": "https://github.com/quiple/galmuri",
+  "rasterization": {
+    "minimum_pixel_size": 5,
+    "maximum_pixel_size": 56,
+    "coverage_threshold": 127,
+    "outline_radius": 2
+  }
+}

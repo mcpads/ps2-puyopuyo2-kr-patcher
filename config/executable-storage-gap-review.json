@@ -1,0 +1,47 @@
+{
+  "schema": 1,
+  "executable_sha256": "108b3a24e32edde257cd80f656d863e776e258718cb34a11b17b77eb1a38087b",
+  "review_basis": "Exact-hash review of every Japanese-script Shift-JIS run in main that intersects no named text symbol and is not fully contained by a named data symbol; all five regions are binary tables, SDK/runtime support data, or symbol-boundary padding rather than displayed text.",
+  "regions": [
+    {
+      "region_id": "damage-table-boundary",
+      "start_address": "0x004dfb98",
+      "end_address": "0x004dfbb0",
+      "source_sha256": "7c2012864430dc2071852b88509004c9db17dde137df596ff80a5ab30d1087c8",
+      "classification": "non_string_binary",
+      "note": "Binary TBL_DAMAGE_INIT tail plus alignment padding; the candidate crosses the declared object boundary and is not text storage."
+    },
+    {
+      "region_id": "sdk-runtime-support",
+      "start_address": "0x004ed2d2",
+      "end_address": "0x004ee0c0",
+      "source_sha256": "b5df9e87dd41c79b04570f8c7c9d0dd711291ce48ccc8ca64228065d0d62ec7f",
+      "classification": "non_string_binary",
+      "note": "SDK and C runtime support tables between mfdtbl and two_over_pi; Japanese-looking decodes are numeric, address, and table bytes rather than text."
+    },
+    {
+      "region_id": "ctype-locale-support",
+      "start_address": "0x004ee9e9",
+      "end_address": "0x004eea50",
+      "source_sha256": "bf2809fcdd337074eff330598af80d4bf1b15ef4ae3666bb1ea6f66d2d64aeaf",
+      "classification": "non_string_binary",
+      "note": "C runtime character-type and locale support data between _ctype_ and lconv; decoded Japanese is incidental binary."
+    },
+    {
+      "region_id": "numeric-format-support",
+      "start_address": "0x004eebe0",
+      "end_address": "0x004eedd0",
+      "source_sha256": "cf44833cd13c00ec8c15f834eed0688874f4944be5a70b02da3d0831de8a6690",
+      "classification": "non_string_binary",
+      "note": "C runtime numeric-format constants and address tables after zeroes.1; Japanese-looking runs are four-byte binary words."
+    },
+    {
+      "region_id": "angle-table-boundary",
+      "start_address": "0x004f03d0",
+      "end_address": "0x004f03d4",
+      "source_sha256": "0d7566e6ee6bd8a03df8c4ae39f9c67304c3655e2ca9420ecc407f466f5d1daf",
+      "classification": "non_string_binary",
+      "note": "Two-byte tbl_angle value plus NUL padding; the Shift-JIS decode crosses the declared object boundary and is not text storage."
+    }
+  ]
+}

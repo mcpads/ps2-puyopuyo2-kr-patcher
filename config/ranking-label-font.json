@@ -1,0 +1,13 @@
+{
+  "schema": 1,
+  "id": "bmjua-ranking-labels",
+  "expected_filename": "BMJUA.ttf",
+  "sha256": "e8e6aa8b1b662c7bf0d7f136f29e822e0985176458a6e5d0ba08afc4a5c901a9",
+  "license": "BM Jua distribution terms; font file resale is prohibited",
+  "reference_project": "../snes_puyopuyo_2",
+  "rasterization": {
+    "pixel_size": 34.0,
+    "coverage_threshold": 128,
+    "outline_radius": 1
+  }
+}

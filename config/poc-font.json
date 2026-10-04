@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "id": "jua-shared-system",
+  "expected_filename": "BMJUA.ttf",
+  "sha256": "e8e6aa8b1b662c7bf0d7f136f29e822e0985176458a6e5d0ba08afc4a5c901a9",
+  "license": "SIL Open Font License 1.1; embedded font name-table declaration",
+  "upstream_repository": "https://github.com/fonts-archive/BMJUA",
+  "rasterization": {
+    "pixel_size": 24.0,
+    "coverage_threshold": 127
+  }
+}

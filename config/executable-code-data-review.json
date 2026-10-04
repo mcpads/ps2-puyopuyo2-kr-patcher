@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "executable_sha256": "108b3a24e32edde257cd80f656d863e776e258718cb34a11b17b77eb1a38087b",
+  "review_basis": "Exact file-backed ranges embedded in ELF text symbols but consumed as data rather than canonical R5900 instructions.",
+  "regions": [
+    {
+      "region_id": "copy-ref-image-max-values",
+      "symbol_name": "_maxval",
+      "start_address": "0x00404240",
+      "end_address": "0x00404250",
+      "source_sha256": "0b0261922360928edbfbba07c1c5548aa2e71214f193d5c88bd8c840f4ddad3e",
+      "classification": "inline_data",
+      "note": "Four repeated 0x00ff00ff words named by the local _maxval label inside _copyRefImage."
+    }
+  ]
+}

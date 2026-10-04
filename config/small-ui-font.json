@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "id": "galmuri11-small-ui",
+  "expected_filename": "Galmuri11.ttf",
+  "sha256": "2c709890595668f7bdb6df408420fda957dde0288e95b31a1cc17a2ab98b4b4f",
+  "license": "SIL Open Font License 1.1",
+  "upstream_repository": "https://github.com/quiple/galmuri",
+  "rasterization": {
+    "minimum_pixel_size": 16,
+    "maximum_pixel_size": 16,
+    "coverage_threshold": 127,
+    "outline_radius": 1
+  }
+}

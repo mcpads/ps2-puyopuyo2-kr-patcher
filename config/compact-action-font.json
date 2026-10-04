@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "id": "galmuri7-compact-action",
+  "expected_filename": "Galmuri7.ttf",
+  "sha256": "3882bd35066c26b0392cd4963ff9b3c151041dec34adc9d5633d137d1d9b9855",
+  "license": "SIL Open Font License 1.1",
+  "upstream_repository": "https://github.com/quiple/galmuri",
+  "rasterization": {
+    "minimum_pixel_size": 8,
+    "maximum_pixel_size": 8,
+    "coverage_threshold": 127,
+    "outline_radius": 1
+  }
+}

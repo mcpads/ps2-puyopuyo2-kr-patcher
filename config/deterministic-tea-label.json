@@ -1,0 +1,12 @@
+{
+  "schema": 1,
+  "id": "skeleton-t-tea-label",
+  "text": "차",
+  "font_id": "galmuri11-functional-ui",
+  "font_sha256": "2c709890595668f7bdb6df408420fda957dde0288e95b31a1cc17a2ab98b4b4f",
+  "pixel_size": 56,
+  "coverage_threshold": 127,
+  "outline_radius": 2,
+  "fill_rgba": [255, 64, 32, 255],
+  "outline_rgba": [96, 0, 0, 255]
+}

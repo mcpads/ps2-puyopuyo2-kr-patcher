@@ -1,0 +1,35 @@
+{
+  "center_x": 320,
+  "source_positions_hex": "0100c800c800e8030200c800f800e8030300c8002801e8030400c8005801e803ffff",
+  "source_descriptor_hex": "00000000c0624d00800080000000000060644d00",
+  "consumer_sha256": "a6cb3205077066df86055182b4d089194f0a8b75cb1fcc28573101e994e1835a",
+  "caller_sha256": "8d7527b524c4873437048611ffb3589d19fc965a00073490fb0fa4a3ca19ae76",
+  "ink_bounds": [
+    [
+      66,
+      173
+    ],
+    [
+      63,
+      176
+    ],
+    [
+      86,
+      153
+    ],
+    [
+      54,
+      186
+    ]
+  ],
+  "dependencies": [
+    {
+      "path": "assets/translation/graphics/font-atlas/image-g-000093.roles.png",
+      "sha256": "e6690b72d7fe36fc0d74dc2a34a2cc4fea9d3ac4ffc9bf1576fc56cd9af02182"
+    },
+    {
+      "path": "assets/translation/graphics/static-regions/image-g-000093-puzzle-menu-japanese-phrase-supply.source.mask.png",
+      "sha256": "67a1746f2d4f364d763e2a298236348220f92940ee1bef0f9bd8a7d3417a1644"
+    }
+  ]
+}

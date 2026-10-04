@@ -1,0 +1,39 @@
+{
+  "schema": 1,
+  "game": {
+    "title": "SEGA AGES 2500 Series Vol. 12: Puyo Puyo Tsuu Perfect Set",
+    "platform": "PlayStation 2",
+    "region": "Japan"
+  },
+  "cue": {
+    "filename": "Sega Ages 2500 Series Vol. 12 - Puyo Puyo Tsuu - Perfect Set (Japan).cue",
+    "size": 134,
+    "sha256": "256731a1da3fdf8c5e1668cadbbea20257f22ecf3cc311115b3d324e564416f8"
+  },
+  "bin": {
+    "filename": "Sega Ages 2500 Series Vol. 12 - Puyo Puyo Tsuu - Perfect Set (Japan).bin",
+    "size": 592243008,
+    "sha256": "93c8005f0a2ed83659307234b3298b3e8b3c0a78af3cd27a784fd26fc9d95ed4"
+  },
+  "track": {
+    "number": 1,
+    "mode": "MODE2/2352",
+    "index": 1,
+    "start": "00:00:00"
+  },
+  "filesystem": {
+    "format": "ISO9660",
+    "raw_sector_size": 2352,
+    "logical_block_size": 2048,
+    "volume_space_sectors": 251804,
+    "system_identifier": "PLAYSTATION",
+    "volume_identifier": "",
+    "root_directory_lba": 22
+  },
+  "boot": {
+    "system_cnf_path": "/SYSTEM.CNF;1",
+    "boot2": "cdrom0:\\SLPM_624.00;1",
+    "version": "1.01",
+    "video_mode": "NTSC"
+  }
+}

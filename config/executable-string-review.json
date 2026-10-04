@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "executable_sha256": "108b3a24e32edde257cd80f656d863e776e258718cb34a11b17b77eb1a38087b",
+  "review_basis": "Every exact, NUL-terminated, byte-reversible Shift-JIS ELF symbol containing Japanese script was compared with the five producer-specific message catalogs. The remaining exact-source candidates were classified from their symbol size, raw value, named static references, and owning lookup or producer. Four-byte values resolving to executable addresses are binary pointers, not prose.",
+  "entries": [
+    {
+      "symbol": "_putchar",
+      "address": "0x004790e4",
+      "source_sha256": "364d9877dd1e4e2f22e06f3c5c6b35d99a7a0be5c3b6d2bf59d4e9825e33a5ee",
+      "classification": "non_string_binary",
+      "note": "Four-byte function pointer 0x0040c3e8 to serialPutchar; the apparent Japanese character is an incidental Shift-JIS decode."
+    },
+    {
+      "symbol": "_fswildcard",
+      "address": "0x00479190",
+      "source_sha256": "7f9836909c6a11bbec704cbe74b389060e237f9bff07264a74afea77e8fc9f02",
+      "classification": "non_string_binary",
+      "note": "Four-byte pointer 0x004eda58 into executable read-only data; not displayed prose."
+    },
+    {
+      "symbol": "_lfwildcard",
+      "address": "0x004791a4",
+      "source_sha256": "654d404babdbc8082e42908e60b21ee984aaf2517eac5b58e2382bbd665d850a",
+      "classification": "non_string_binary",
+      "note": "Four-byte pointer 0x004eda60 to executable read-only data; not displayed prose."
+    },
+    {
+      "symbol": "_impure_ptr",
+      "address": "0x0047c710",
+      "source_sha256": "e7e16a67d840e5ec14494f00ba7b59c63ea9d3605bd9aa9aa5716a1513a93965",
+      "classification": "non_string_binary",
+      "note": "Four-byte pointer 0x0047c420 to impure_data; not displayed prose."
+    },
+    {
+      "symbol": "FontList_Zen",
+      "address": "0x0048ea40",
+      "source_sha256": "3cf91100f27c528d48a139f5a1ed4bd10e9c8c668d756e15e187a1b9fd726517",
+      "classification": "font_repertoire",
+      "note": "GetFontParam lookup repertoire for the memory-card message font; it is a glyph-code table rather than a displayed sentence."
+    },
+    {
+      "symbol": "FontList_Exp",
+      "address": "0x00499270",
+      "source_sha256": "2f301edfdb37c4ad1d87c7bc5d92f80aadaa051c8c3396497b3b5f5eb6c7650a",
+      "classification": "font_repertoire",
+      "note": "GetFontParam_Exp lookup repertoire already bound to the tutorial font contract; not displayed prose."
+    },
+    {
+      "symbol": "FontList_Nazo",
+      "address": "0x004d7620",
+      "source_sha256": "35a1ea8fbf088e58eb09d58a8a4497df2349cd3aedb98de5a39b54b81d65923d",
+      "classification": "font_repertoire",
+      "note": "GetFontParam_Nazo lookup repertoire already bound to the Nazo font contract; not displayed prose."
+    },
+    {
+      "symbol": "@2081",
+      "address": "0x004ef150",
+      "source_sha256": "f9bd24d5d22ed4ae2c29f2de037e78325eb1280cf1c434ec84b80025b56de1e4",
+      "classification": "displayed_japanese_metadata",
+      "note": "Japanese save-data title materialized by Memcard_SetIconSys for memory-card metadata; it is a translation target distinct from the on-screen message renderers."
+    },
+    {
+      "symbol": "HitoPtn_List",
+      "address": "0x004f0508",
+      "source_sha256": "33c9ff89c08f8841549682f74bcb4c8347630c791e99fe1b4cad791d2ce088c3",
+      "classification": "non_string_binary",
+      "note": "Four-byte pointer 0x0049a670 to HitoList_00; not displayed prose."
+    },
+    {
+      "symbol": "MovesysDEMO00",
+      "address": "0x004f0558",
+      "source_sha256": "65a9d491c491e93e658b46bc146892748cca486557d858c55dfa2d03dd4cd540",
+      "classification": "non_string_binary",
+      "note": "Four-byte pointer 0x0049d450 to MovesysDEMO00_1; not displayed prose."
+    },
+    {
+      "symbol": "MovesysDEMO1A",
+      "address": "0x004f0610",
+      "source_sha256": "56415b2f1faeb12834c942b54b94180108a678179579bcce5bb30d6afea26ee0",
+      "classification": "non_string_binary",
+      "note": "Four-byte pointer 0x004ac070 to MovesysDEMO1A_1; not displayed prose."
+    },
+    {
+      "symbol": "MovesysDEMO1B",
+      "address": "0x004f0628",
+      "source_sha256": "ef2bf578a49aec3fc4c17f88b240271affeefe62bdaf5f3548e6fa40c99b1208",
+      "classification": "non_string_binary",
+      "note": "Four-byte pointer 0x004ac870 to Movesys46_YURE_1; not displayed prose."
+    },
+    {
+      "symbol": "MovesysDEMO1F",
+      "address": "0x004f0640",
+      "source_sha256": "2d4c66d13ab7f8fdf3bb9eed2d522f587d81f3cc5027177686fed4c622a531c2",
+      "classification": "non_string_binary",
+      "note": "Four-byte pointer 0x004ae320 to Movesys1F_KUSA_1; not displayed prose."
+    },
+    {
+      "symbol": "Kar_Anime",
+      "address": "0x004f0a68",
+      "source_sha256": "5d189be73a6993dad4efac4bd9453281a0be2b0b1921084809e962b7fe8403dd",
+      "classification": "non_string_binary",
+      "note": "Four-byte pointer 0x004eca20 to Anime_Kar_1; not displayed prose."
+    }
+  ]
+}

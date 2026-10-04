@@ -1,0 +1,167 @@
+{
+  "schema": 1,
+  "source_bin_sha256": "93c8005f0a2ed83659307234b3298b3e8b3c0a78af3cd27a784fd26fc9d95ed4",
+  "executable_iso_path": "/SLPM_624.00;1",
+  "executable_sha256": "108b3a24e32edde257cd80f656d863e776e258718cb34a11b17b77eb1a38087b",
+  "containers": [
+    {
+      "file_id": 0,
+      "iso_path": "/IMAGE_D.BIN;1",
+      "sha256": "9ef90c6b56a3a1b30087a0cdc0f050093a3016f76afa494a5c4a2baad1450e5c"
+    },
+    {
+      "file_id": 1,
+      "iso_path": "/IMAGE_G.BIN;1",
+      "sha256": "a8ad126e0681ab5b404dc31885deb717fcd7726d5d77412fccca7012a31257d4"
+    },
+    {
+      "file_id": 2,
+      "iso_path": "/IMAGE_MD.BIN;1",
+      "sha256": "b8993d616553ddfd15d3fad7027392fee9df833e3f1ac86b97ccb8708eef97cc"
+    }
+  ],
+  "review_basis": "Visual review of every exact-source image in texture-previews.json through labeled contact sheets and individual residual alpha variants. Japanese OCR was used only to search for omissions; classification was decided from the rendered pixels.",
+  "groups": [
+    {
+      "file_id": 0,
+      "classification": "japanese_only",
+      "record_ranges": [
+        { "first": 29, "last": 32 },
+        { "first": 46, "last": 49 },
+        { "first": 51, "last": 52 }
+      ],
+      "image_records": [9, 12, 13, 14, 22, 23, 25, 33, 50, 55],
+      "note": "Visible Japanese text with no English wording; digits, punctuation, and control icons remain outside translated regions."
+    },
+    {
+      "file_id": 0,
+      "classification": "japanese_english_mixed",
+      "record_ranges": [
+        { "first": 39, "last": 40 }
+      ],
+      "image_records": [19, 21, 42, 54],
+      "note": "Japanese and Latin or English markings share one image; Japanese regions are language candidates and English pixels are protected."
+    },
+    {
+      "file_id": 0,
+      "classification": "japanese_english_mixed",
+      "product_scope": "excluded_other_title_promotion",
+      "record_ranges": [
+        { "first": 56, "last": 58 }
+      ],
+      "image_records": [],
+      "note": "Other SEGA AGES 2500 titles are advertised in these Omake catalog images; Japanese text is surveyed but excluded from this product and English pixels remain protected."
+    },
+    {
+      "file_id": 0,
+      "classification": "english_only",
+      "record_ranges": [],
+      "image_records": [0, 17, 53],
+      "note": "Visible wording is English only and is explicitly outside translation scope."
+    },
+    {
+      "file_id": 0,
+      "classification": "non_text",
+      "record_ranges": [
+        { "first": 3, "last": 8 },
+        { "first": 10, "last": 11 },
+        { "first": 15, "last": 16 },
+        { "first": 26, "last": 28 },
+        { "first": 34, "last": 38 },
+        { "first": 43, "last": 45 }
+      ],
+      "image_records": [1, 2, 18, 20, 24, 41],
+      "note": "No Japanese or English wording is visible; artwork, tiles, symbols, and punctuation are preserved."
+    },
+    {
+      "file_id": 1,
+      "classification": "japanese_only",
+      "record_ranges": [],
+      "image_records": [13, 17, 38, 39, 77, 90, 103, 109, 110, 111, 115, 116, 117],
+      "note": "Visible Japanese text with no English wording; digits, punctuation, and control icons remain outside translated regions."
+    },
+    {
+      "file_id": 1,
+      "classification": "japanese_english_mixed",
+      "record_ranges": [],
+      "image_records": [12, 93, 94, 97, 108, 112, 113, 120, 122],
+      "note": "Japanese and Latin or English markings share one image; Japanese regions are language candidates and English pixels are protected."
+    },
+    {
+      "file_id": 1,
+      "classification": "english_only",
+      "record_ranges": [],
+      "image_records": [91],
+      "note": "Visible wording is English only and is explicitly outside translation scope."
+    },
+    {
+      "file_id": 1,
+      "classification": "non_text",
+      "record_ranges": [
+        { "first": 0, "last": 11 },
+        { "first": 14, "last": 16 },
+        { "first": 18, "last": 37 },
+        { "first": 40, "last": 76 },
+        { "first": 78, "last": 89 },
+        { "first": 95, "last": 96 },
+        { "first": 100, "last": 102 },
+        { "first": 104, "last": 105 }
+      ],
+      "image_records": [92, 98, 99, 106, 107, 114, 118, 119, 121],
+      "note": "No Japanese or English wording is visible; artwork, tiles, symbols, and punctuation are preserved."
+    },
+    {
+      "file_id": 2,
+      "classification": "japanese_only",
+      "record_ranges": [
+        { "first": 72, "last": 89 },
+        { "first": 91, "last": 98 },
+        { "first": 100, "last": 109 },
+        { "first": 111, "last": 146 }
+      ],
+      "image_records": [110, 149, 150, 151, 178, 213, 214, 243, 248, 249, 255, 263, 268, 269, 270, 285, 292, 297, 300, 302, 305, 311, 323],
+      "note": "Visible Japanese dialogue, credits, labels, or sound effects with no English wording."
+    },
+    {
+      "file_id": 2,
+      "classification": "japanese_english_mixed",
+      "record_ranges": [],
+      "image_records": [90, 147, 148, 164, 250],
+      "note": "Japanese and English or Latin organization names and glyphs share one image; English pixels are protected."
+    },
+    {
+      "file_id": 2,
+      "classification": "english_only",
+      "record_ranges": [],
+      "image_records": [152, 205],
+      "note": "Visible wording is English only and is explicitly outside translation scope."
+    },
+    {
+      "file_id": 2,
+      "classification": "non_text",
+      "record_ranges": [
+        { "first": 0, "last": 71 },
+        { "first": 153, "last": 163 },
+        { "first": 165, "last": 177 },
+        { "first": 179, "last": 204 },
+        { "first": 206, "last": 212 },
+        { "first": 215, "last": 242 },
+        { "first": 244, "last": 247 },
+        { "first": 251, "last": 254 },
+        { "first": 256, "last": 262 },
+        { "first": 264, "last": 267 },
+        { "first": 271, "last": 284 },
+        { "first": 286, "last": 291 },
+        { "first": 293, "last": 296 },
+        { "first": 298, "last": 299 },
+        { "first": 301, "last": 301 },
+        { "first": 303, "last": 304 },
+        { "first": 306, "last": 310 },
+        { "first": 312, "last": 322 },
+        { "first": 325, "last": 329 }
+      ],
+      "image_records": [99, 324],
+      "note": "No Japanese or English wording is visible; artwork, animation, backgrounds, symbols, and punctuation are preserved."
+    }
+  ]
+}

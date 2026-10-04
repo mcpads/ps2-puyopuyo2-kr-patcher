@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "id": "maplestory-light-story-dialogue",
+  "expected_filename": "Maplestory Light.ttf",
+  "sha256": "6d51d8e576f77b01914095aa1f69f9d37c16d93fe940d748962867f218442ba9",
+  "license": "NEXON MapleStory font terms; font file used without modification",
+  "upstream_repository": "https://maplestory.nexon.com/Media/Font",
+  "glyph_aliases": {
+    "❤": "♥"
+  },
+  "rasterization": {
+    "pixel_size": 20.0,
+    "coverage_threshold": 127,
+    "outline_radius": 1
+  }
+}
